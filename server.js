@@ -162,64 +162,64 @@ async function start() {
 
 
 
-       switch (currentRuleset) {
+          switch (currentRuleset) {
       //++++++++++++++++++++++++++++++++++INDIVIDUALS and doubles equivalent++++++++++++++++++++++++++++++++++
   
       //----------------------------------------Primaries-----------------------------------
   
   
       case "Standard":
-       battleArray = blackRules.Standard[manaCap].black;
+       battleArray = whiteRules.Standard[manaCap].white;
   
           break;
       case "Back to Basics|Lost Legendaries":
       case "Back to Basics":
-         battleArray = blackRules.backToBasics[manaCap].black;
+         battleArray = whiteRules.backToBasics[manaCap].white;
           break;
   
   
       case "Silenced Summoners|Lost Legendaries":
       case "Silenced Summoners":
-         battleArray = blackRules.silencedSummoners[manaCap].black;
+         battleArray = whiteRules.silencedSummoners[manaCap].white;
   
           break;
       case "Aim True|Lost Legendaries":
       case "Aim True":
-         battleArray = blackRules.aimTrue[manaCap].black;
+         battleArray = whiteRules.aimTrue[manaCap].white;
   
           break;
   
       case "Super Sneak|Lost Legendaries":
       case "Super Sneak":
   
-         battleArray = blackRules.superSneak[manaCap].black;
+         battleArray = whiteRules.superSneak[manaCap].white;
   
           break;
       case "Weak Magic|Lost Legendaries":
       case "Weak Magic":
-         battleArray = blackRules.weakMagic[manaCap].black;
+         battleArray = whiteRules.weakMagic[manaCap].white;
   
           break;
       case "Unprotected|Lost Legendaries":
       case "Unprotected":
-         battleArray = blackRules.unprotected[manaCap].black;
+         battleArray = whiteRules.unprotected[manaCap].white;
   
           break;
   
       case "Target Practice|Lost Legendaries":
       case "Target Practice":
-         battleArray = blackRules.targetPractice[manaCap].black;
+         battleArray = whiteRules.targetPractice[manaCap].white;
   
           break;
   
       case "Fog of War|Lost Legendaries":
       case "Fog of War":
-         battleArray = blackRules.fogOfWar[manaCap].black;
+         battleArray = whiteRules.fogOfWar[manaCap].white;
   
           break;
       case "Armored Up|Lost Legendaries":
       case "Armored Up":
-         battleArray = blackRules.armoredUp[manaCap].black;
+         battleArray = whiteRules.armoredUp[manaCap].white;
   
           break;
           //----------------------------------------any-----------------------------------
@@ -237,11 +237,11 @@ async function start() {
           case "Back to Basics|Reverse Speed":
           case "Silenced Summoners|Reverse Speed":
       case "Reverse Speed":
-         battleArray = blackRules.reverseSpeed[manaCap].black;
+         battleArray = whiteRules.reverseSpeed[manaCap].white;
   
           break;
       case "Earthquake|Lost Legendaries":
-
+  
       case "Reverse Speed|Earthquake":
           case "Healed Out|Earthquake":
           case "Armored Up|Earthquake":
@@ -254,11 +254,11 @@ async function start() {
           case "Back to Basics|Earthquake":
           case "Silenced Summoners|Earthquake":
       case "Earthquake":
-         battleArray = blackRules.earthquake[manaCap].black;
+         battleArray = whiteRules.earthquake[manaCap].white;
   
           break;
-
-
+  
+  
           case "Earthquake|Healed Out":
             case "Reverse Speed|Healed Out":
             case "Armored Up|Healed Out":
@@ -272,7 +272,7 @@ async function start() {
             case "Silenced Summoners|Healed Out":
       case "Healed Out|Lost Legendaries":
       case "Healed Out":
-         battleArray = blackRules.healedOut[manaCap].black;
+         battleArray = whiteRules.healedOut[manaCap].white;
   
           break;
   
@@ -286,7 +286,7 @@ async function start() {
   
   
       case "Lost Legendaries":
-         battleArray = blackRules.noLegendaries[manaCap].black;
+         battleArray = whiteRules.noLegendaries[manaCap].white;
           break;
   
   
@@ -303,7 +303,7 @@ async function start() {
       case "Back to Basics|Melee Mayhem":
       case "Silenced Summoners|Melee Mayhem":
       case "Melee Mayhem":
-         battleArray = blackRules.meleeMayhem[manaCap].black;
+         battleArray = whiteRules.meleeMayhem[manaCap].white;
   
   
           break;
@@ -324,7 +324,7 @@ async function start() {
       case "Back to Basics|Taking Sides":
       case "Silenced Summoners|Taking Sides":
       case "Taking Sides":
-         battleArray = blackRules.takinSides[manaCap].black;
+         battleArray = whiteRules.takinSides[manaCap].white;
   
           break;
   
@@ -344,7 +344,7 @@ async function start() {
       case "Silenced Summoners|Rise of the Commons":
   
       case "Rise of the Commons":
-         battleArray = blackRules.riseOfTheCommons[manaCap].black;
+         battleArray = whiteRules.riseOfTheCommons[manaCap].white;
   
           break;
   
@@ -365,7 +365,7 @@ async function start() {
       case "Back to Basics|Up Close & Personal":
       case "Silenced Summoners|Up Close & Personal":
       case "Up Close & Personal":
-         battleArray = blackRules.upClose[manaCap].black;
+         battleArray = whiteRules.upClose[manaCap].white;
   
           break;
   
@@ -385,7 +385,7 @@ async function start() {
       case "Back to Basics|Broken Arrows":
       case "Silenced Summoners|Broken Arrows":
       case "Broken Arrows":
-         battleArray = blackRules.brokenArrows[manaCap].black;
+         battleArray = whiteRules.brokenArrows[manaCap].white;
   
           break;
   
@@ -405,7 +405,7 @@ async function start() {
       case "Back to Basics|Little League":
       case "Silenced Summoners|Little League":
       case "Little League":
-         battleArray = blackRules.littleLeague[manaCap].black;
+         battleArray = whiteRules.littleLeague[manaCap].white;
   
           break;
   
@@ -424,14 +424,13 @@ async function start() {
       case "Back to Basics|Keep Your Distance":
       case "Silenced Summoners|Keep Your Distance":
       case "Keep Your Distance":
-         battleArray = blackRules.keepYourDistance[manaCap].black;
+         battleArray = whiteRules.keepYourDistance[manaCap].white;
   
           break;
   
   
   
   }
-
 
   //Check if your splinter is available and chose the right strategy
 try{
